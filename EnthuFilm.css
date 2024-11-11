@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #021024; /* Main Background */
+    color: #FFFFFF; /* Text */
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 96%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px; 
+    background: #0A084C; /* BG + Shading */
+    transition: 0.5s;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: auto; 
+}
+
+.navbar a {
+    color: #91DAF5; /* Text */
+    text-decoration: none;
+    font-size: 0.9rem; 
+}
+
+/* Eyes Section */
+.eyes {
+    text-align: center;
+    padding: 100px 20px 30px; 
+    background: #021024; /* Main Background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px); /* Adjust for fixed header */
+}
+
+.eyes h1 {
+    font-size: 48px; 
+    color: #91DAF5; /* Text */
+    margin: 0;
+}
+
+.eyes p {
+    font-size: 24px; 
+    color: #FFFFFF; /* Text */
+    margin: 10px 0; 
+}
+
+.eyes-image img {
+    max-width: 85%; 
+    height: auto;
+    overflow: hidden; 
+}
+
+.eyes-image img { 
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 40px 20px; 
+    background: #0A084C; /* BG + Shading */
+    color: #FFFFFF; /* Text */
+}
+
+.features h2 {
+    font-size: 48px; 
+    color: #FFFFFF; /* Assets */
+    margin-bottom: 155px; 
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; 
+}
+
+.feature {
+    text-align: center;
+    max-width: 180px; 
+}
+
+.feature img {
+    width: 95px; 
+    height: auto;
+    margin-bottom: 50px; 
+}
+
+.feature h3 {
+    font-size: 40px; 
+    color: #91DAF5; /* Text */
+}
+
+.feature p {
+    font-size: 13px; 
+    color: #FFFFFF; /* Text */
+}
